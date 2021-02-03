@@ -9,4 +9,4 @@ Sources used:
 Sources used: 
 - [Basics of Slicing a String](https://www.w3schools.com/python/python_strings_slicing.asp)
 - [Reverse a String using Slice](https://www.w3schools.com/python/python_howto_reverse_string.asp)
-= [Return Every Second Letter](https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python)
+- [Return Every Second Letter](https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python)
