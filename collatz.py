@@ -23,6 +23,6 @@ while value > 0 :
  # if the value is equal to one
  elif value == 1:
     print(value)
- # ends the loop as value is no longer a positive integer - use break here instead possibly? 
+ # ends the loop as value is no longer a positive integer - use break or exit() here instead possibly?
     value = (value - 1)
     
