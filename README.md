@@ -16,3 +16,9 @@ Sources used:
 
 Sources used: 
  - [Basics of While Loops](https://www.w3schools.com/python/python_while_loops.asp)
+
+ ### Week 5 - weekday.py
+
+ Sources used: 
+ - [Datetime Module](https://www.programiz.com/python-programming/datetime) accessed on Friday February 19th 2021
+ - [The Weekday Function](https://pythontic.com/datetime/date/weekday) accessed on Friday February 19th 2021
