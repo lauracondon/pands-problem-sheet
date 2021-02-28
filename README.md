@@ -22,3 +22,10 @@ Sources used:
  Sources used: 
  - [Datetime Module](https://www.programiz.com/python-programming/datetime) accessed on Friday February 19th 2021
  - [The Weekday Function](https://pythontic.com/datetime/date/weekday) accessed on Friday February 19th 2021
+
+ ### Week 6 - squareroot.py
+ 28/02/2021 - Note: I would like to go back and add some code that will restart the program if the user enters a negative number, rather than just throw an error message and end it
+
+ Sources used: 
+ - [Newton Method](https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html) accessed on Sunday February 28th 2021
+ - [Limiting to one decimal place](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python) accessed on Sunday February 28th 2021
