@@ -29,3 +29,16 @@ Sources used:
  Sources used: 
  - [Newton Method](https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html) accessed on Sunday February 28th 2021
  - [Limiting to one decimal place](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python) accessed on Sunday February 28th 2021
+
+ ### Week 7 - es.py 
+
+ Sources used: 
+ - [Real Python - Reading and Writing Files](https://realpython.com/read-write-files-python/ ) accessed on Thursday March 4th 2021
+ - [Real Python - Working with Files in Python](https://realpython.com/working-with-files-in-python/) accessed on Thursday March 4th 2021
+ - [w3schools - Handling Files in Python](https://www.w3schools.com/python/python_file_handling.asp) accessed on Thursday March 4th 2021
+ - [geeksforgeeks - Counting the No. of Times a Letter Appears in a Text File](https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/) accessed on Thursday March 4th 2021
+ - [codegrepper - Counting the Occurence of a Word in a String](https://www.codegrepper.com/code-examples/python/how+to+count+the+occurrence+of+a+word+in+string+python) accessed on Thursday March 4th 2021
+ - [Stack Overflow - Handling a Decode Error](https://stackoverflow.com/questions/9233027/2021unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character) accessed on Thursday March 4th 2021
+
+  ### Week 7 - moby-dick.txt
+ - [Moby Dick - Chapter One. Sourced from Project Gutenberg](https://www.gutenberg.org/files/2701/2701-h/2701-h.htm) accessed on Thursday March 4th 2021
