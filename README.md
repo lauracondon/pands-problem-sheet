@@ -2,20 +2,20 @@
 
 ### Week 2 - bmi.py
 Sources used:
-- [Rounding Decimals](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python) 
-- [Invalid Input Error using Try/Except](https://docs.python.org/3/tutorial/errors.html)
+- [Rounding Decimals](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python) accessed on Saturday January 30th 2021
+- [Invalid Input Error using Try/Except](https://docs.python.org/3/tutorial/errors.html) accessed on Saturday January 30th 2021
 
 ### Week 3 - secondstring.py
 Sources used: 
-- [Basics of Slicing a String](https://www.w3schools.com/python/python_strings_slicing.asp)
-- [Reverse a String using Slice](https://www.w3schools.com/python/python_howto_reverse_string.asp)
-- [Return Every Second Letter](https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python)
+- [Basics of Slicing a String](https://www.w3schools.com/python/python_strings_slicing.asp) accessed on Wednesday February 3rd 2021
+- [Reverse a String using Slice](https://www.w3schools.com/python/python_howto_reverse_string.asp) accessed on Wednesday February 3rd 2021
+- [Return Every Second Letter](https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python) accessed on Wednesday February 3rd 2021
 
 ### Week 4 - collatz.py
 10/02/2021 - Note: I'm not entirely happy with my solution, although it does work. I feel like there's probably an easier way to achieve the same outcome. In particular I'd like to go back and redo the way the program ends when the value becomes one as I feel I'm missing something obvious there!
 
 Sources used: 
- - [Basics of While Loops](https://www.w3schools.com/python/python_while_loops.asp)
+ - [Basics of While Loops](https://www.w3schools.com/python/python_while_loops.asp) accessed on Wednesday February 10th 2021
 
  ### Week 5 - weekday.py
 
@@ -42,3 +42,6 @@ Sources used:
 
   ### Week 7 - moby-dick.txt
  - [Moby Dick - Chapter One. Sourced from Project Gutenberg](https://www.gutenberg.org/files/2701/2701-h/2701-h.htm) accessed on Thursday March 4th 2021
+
+ ### Week 8 - plottask.py
+10/03/2021 - Note: I need to comment my code and also add some extra formatting to it to make it look nicer
