@@ -45,3 +45,22 @@ Sources used:
 
  ### Week 8 - plottask.py
 10/03/2021 - Note: I need to comment my code and also add some extra formatting to it to make it look nicer
+
+I used the tableau color blind 10 palette to choose colours for my lines. I converted them from rgb to hex for easier entry. In order to make it more obvious that the lines were overlapping I set two of them to be dashed in style, with different widths and distance between each dash. 
+
+References: 
+
+https://realpython.com/tutorials/numpy/ (accessed 10/03/2021)
+https://realpython.com/how-to-use-numpy-arange/ (accessed 10/03/2021)
+https://www.tutorialspoint.com/matlab/matlab_plotting.htm (accessed 10/03/2021)
+https://www.kite.com/python/answers/how-to-plot-multiple-lines-on-the-same-graph-in-matplotlib-in-python(accessed 10/03/2021)
+
+https://www.rgbtohex.net/rgb/ (accessed 20/03/2021)
+https://public.tableau.com/profile/chris.gerrard#!/vizhome/TableauColors/ColorPaletteswithRGBValues (accessed 20/03/2021)
+https://matplotlib.org/stable/gallery/index.html (accessed 20/03/2021)
+
+https://matplotlib.org/stable/gallery/lines_bars_and_markers/line_demo_dash_control.html (accessed 22/03/2021)
+https://stackoverflow.com/questions/43814540/how-to-change-the-font-of-the-legend (accessed 22/03/2021)
+https://pythonbasics.org/matplotlib-line-chart/ (accessed 22/03/2021)
+https://jakevdp.github.io/PythonDataScienceHandbook/04.01-simple-line-plots.html (accessed 22/03/2021)
+https://stackoverflow.com/questions/8209568/how-do-i-draw-a-grid-onto-a-plot-in-python (acessed 22/03/2011)
