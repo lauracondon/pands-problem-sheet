@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # specify what font style to use for all text in the plot
-plt.rcParams["font.family"] = "Courier New"
+plt.rcParams['font.family'] = 'Courier New'
 
 # define the range of values for x on the graph
 x = np.arange(0, 4)
@@ -19,7 +19,7 @@ g = x**2
 h = x**3
 
 # display a grid and specify its style
-plt.rc('grid', linestyle="dotted", color='gray', alpha=0.7)
+plt.rc('grid', linestyle='dotted', color='gray', alpha=0.7)
 plt.grid()
 
 # call the plot command, individually for each line to be plotted
@@ -29,9 +29,9 @@ plt.plot(g, color = '#ff800e', linestyle='dashed', dashes=(4, 2), linewidth=3.0,
 plt.plot(h, color = '#595959', linestyle='dashed', dashes=(2, 1),linewidth=3.0, label='h(x)')  
 
 # specify the name for each axis and for the title
-plt.xlabel("x axis")
-plt.ylabel("y axis")
-plt.title("plot of f(x), g(x) and h(x)")
+plt.xlabel('x axis')
+plt.ylabel('y axis')
+plt.title('plot of f(x), g(x) and h(x)')
 # display a legend
 plt.legend()
 
