@@ -19,7 +19,7 @@ while value > 0 :
  # if the value is even
  if value % 2 == 0:
     print(value)
- # changes condition variable by dividing it by two, stores it as an integer
+ # changes condition variable by dividing it by two
     value = value//2
 
  # if the value is odd and it does not equal one
