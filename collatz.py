@@ -20,7 +20,7 @@ while value > 0 :
  if value % 2 == 0:
     print(value)
  # changes condition variable by dividing it by two, stores it as an integer
-    value = int(value/2)
+    value = value//2
 
  # if the value is odd and it does not equal one
  if value % 2 != 0 and value != 1:
