@@ -29,11 +29,26 @@ Finally, The variable 'bmi' is rounded to two decimal places and converted to a 
 - Stack Overflow. *How to round to 2 decimals with Python?* https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python (accessed 30/01/2021)
 - Python.org. *Errors and Exceptions - Invalid Input Error using Try/Except.*  https://docs.python.org/3/tutorial/errors.html (accessed 30/01/2021)
 
+____________________________________________________________________________________________________________________
+
 ### Week 3 - secondstring.py
-Sources used: 
-- [Basics of Slicing a String](https://www.w3schools.com/python/python_strings_slicing.asp) accessed on Wednesday February 3rd 2021
-- [Reverse a String using Slice](https://www.w3schools.com/python/python_howto_reverse_string.asp) accessed on Wednesday February 3rd 2021
-- [Return Every Second Letter](https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python) accessed on Wednesday February 3rd 2021
+
+#### Task: 
+
+1. Write a program that takes asks a user to input a string and outputs every second letter in reverse order.
+
+Test Input: 
+
+$ python secondstring.py
+Please enter a sentence: The quick brown fox jumps over the lazy dog.
+.o zletrv pu o wr cu h
+
+#### Code Explanation:
+
+#### References:
+w3schools. *Python - Slicing Strings* https://www.w3schools.com/python/python_strings_slicing.asp (accessed 03/02/2021)
+w3schools. *How to Reverse a String in Python.* https://www.w3schools.com/python/python_howto_reverse_string.asp (accessed 03/02/2021) 
+Stack Overflow. *program to extract every alternate letters from a string in python?* https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python (accessed 03/02/2021)
 
 ### Week 4 - collatz.py
 10/02/2021 - Note: I'm not entirely happy with my solution, although it does work. I feel like there's probably an easier way to achieve the same outcome. In particular I'd like to go back and redo the way the program ends when the value becomes one as I feel I'm missing something obvious there!
