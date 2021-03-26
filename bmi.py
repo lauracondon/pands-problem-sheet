@@ -2,12 +2,12 @@
 # This program calculates the user's Body Mass Index (BMI)
 # author: Laura Condon
 
-# try/except checks if user's input is an integer and delivers error message if not
+# try/except checks if user's input is a number and delivers error message if it is not
 try:
-    
-# prompts the user to enter their weight and height then converts it from a string to an integer. 
-    weight = int(input("Please enter your weight in kilograms: "))
-    height = int(input("Please enter your height in centimetres: "))
+
+# prompts the user to enter their weight and height then converts it from a string to a float. 
+    weight = float(input("Please enter your weight in kilograms: "))
+    height = float(input("Please enter your height in centimetres: "))
 
 # calculates the user's BMI and stores it in the variable 'bmi' 
     bmi = weight/(height/100)**2
