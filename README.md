@@ -45,10 +45,18 @@ Please enter a sentence: The quick brown fox jumps over the lazy dog.
 
 #### Code Explanation:
 
+This program uses string slicing in order to output the reverse of every second letter in the inputted sentence. 
+
+First, the user is prompted to enter a setence. This input is stored in the variable 'sentence' as a string.
+
+A new variable called 'backwardsSentence' is created. Strings are indexed backwards (starting from -1) as well as forward (starting from 0). We slice the string with a step value of -1 (::-1) in order to reverse it. Essentially it is saying start at the last character in the string and 'step' backwards one step (or character) at a time. 
+
+The same technique as above is used to return every second letter. This time the step value is set to 2 (::2), meaning that every second letter in the now reversed string is 'jumped' over. The result is outputted to the user. 
+
 #### References:
-w3schools. *Python - Slicing Strings* https://www.w3schools.com/python/python_strings_slicing.asp (accessed 03/02/2021)
-w3schools. *How to Reverse a String in Python.* https://www.w3schools.com/python/python_howto_reverse_string.asp (accessed 03/02/2021) 
-Stack Overflow. *program to extract every alternate letters from a string in python?* https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python (accessed 03/02/2021)
+- w3schools. *Python - Slicing Strings* https://www.w3schools.com/python/python_strings_slicing.asp (accessed 03/02/2021)
+- w3schools. *How to Reverse a String in Python.* https://www.w3schools.com/python/python_howto_reverse_string.asp (accessed 03/02/2021) 
+- Stack Overflow. *program to extract every alternate letters from a string in python?* https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python (accessed 03/02/2021)
 
 ### Week 4 - collatz.py
 10/02/2021 - Note: I'm not entirely happy with my solution, although it does work. I feel like there's probably an easier way to achieve the same outcome. In particular I'd like to go back and redo the way the program ends when the value becomes one as I feel I'm missing something obvious there!
