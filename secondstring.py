@@ -4,7 +4,8 @@
 
 # requests input from user and stores it as a variable
 sentence = input("Please enter a sentence: ")
-# use a slice that steps backwards by -1 to reverse the string, and stores it as a new variable
+# slice the string, with a step value of -1 to reverse it 
 backwardsSentence = (sentence[::-1])
-# use a slice that 'steps' over every 2nd letter to return every second letter in the string
+# slice it again with a step value of 2 in order to 'jump' over every 2nd letter in the now reversed string
 print(backwardsSentence [::2])
+
