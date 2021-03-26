@@ -1,9 +1,25 @@
 ## Weekly Problem Sheets for Programming & Scripting
 
 ### Week 2 - bmi.py
-Sources used:
-- [Rounding Decimals](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python) accessed on Saturday January 30th 2021
-- [Invalid Input Error using Try/Except](https://docs.python.org/3/tutorial/errors.html) accessed on Saturday January 30th 2021
+
+#### Task: 
+
+1. Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py
+2. The inputs are the person's height in centimetres and weight in kilograms.
+3. The output is their weight divided by their height in metres squared.
+
+Test Input: 
+
+$ python bmi.py
+Enter weight: 65
+Enter height: 180
+BMI is 20.06.
+
+#### Code Explanation: 
+
+#### References:
+- Stack Overflow. How to round to 2 decimals with Python? https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python (accessed 30/01/2021)
+- Python.org. Errors and Exceptions - Invalid Input Error using Try/Except. https://docs.python.org/3/tutorial/errors.html (accessed 30/01/2021)
 
 ### Week 3 - secondstring.py
 Sources used: 
