@@ -58,11 +58,36 @@ The same technique as above is used to return every second letter. This time the
 - w3schools. *How to Reverse a String in Python.* https://www.w3schools.com/python/python_howto_reverse_string.asp (accessed 03/02/2021) 
 - Stack Overflow. *program to extract every alternate letters from a string in python?* https://stackoverflow.com/questions/20847205/program-to-extract-every-alternate-letters-from-a-string-in-python (accessed 03/02/2021)
 
-### Week 4 - collatz.py
-10/02/2021 - Note: I'm not entirely happy with my solution, although it does work. I feel like there's probably an easier way to achieve the same outcome. In particular I'd like to go back and redo the way the program ends when the value becomes one as I feel I'm missing something obvious there!
+____________________________________________________________________________________________________________________
 
-Sources used: 
- - [Basics of While Loops](https://www.w3schools.com/python/python_while_loops.asp) accessed on Wednesday February 10th 2021
+### Week 4 - collatz.py
+
+#### Task: 
+
+1. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+
+2. At each step calculate the next value by taking the current value and:
+   - if it is even, divide it by two 
+   - if it is odd, multiply it by three and add one.
+
+3. Have the program end if the current value is one.
+
+Test Input: 
+
+$ python collatz.py
+
+Please enter a positive integer: 10
+
+10 5 16 8 4 2 1
+
+#### Code Explanation:
+
+
+
+### References: 
+ - w3schools. *Basics of While Loops.* https://www.w3schools.com/python/python_while_loops.asp (accessed 10/02/2021)
+
+
 
  ### Week 5 - weekday.py
 
