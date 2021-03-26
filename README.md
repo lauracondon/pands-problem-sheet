@@ -26,8 +26,8 @@ To find the BMI, the user's weight is divided by their height and then squared. 
 Finally, The variable 'bmi' is rounded to two decimal places and converted to a string, so that it can be concatenated with another string, then displayed to the user.
 
 #### References:
-- Stack Overflow. ** How to round to 2 decimals with Python? ** https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python (accessed 30/01/2021)
-- Python.org. ** Errors and Exceptions - Invalid Input Error using Try/Except. **  https://docs.python.org/3/tutorial/errors.html (accessed 30/01/2021)
+- Stack Overflow. *How to round to 2 decimals with Python?* https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python (accessed 30/01/2021)
+- Python.org. *Errors and Exceptions - Invalid Input Error using Try/Except.*  https://docs.python.org/3/tutorial/errors.html (accessed 30/01/2021)
 
 ### Week 3 - secondstring.py
 Sources used: 
