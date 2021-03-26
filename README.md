@@ -82,10 +82,21 @@ Please enter a positive integer: 10
 
 #### Code Explanation:
 
+The user is prompted to enter a postive integer. Their input is converted from a string to an integer and stored in the variable 'value'.
 
+A simple if statement is used, to display an error message if they enter a negative integer by mistake. 
+
+The rest of the program is enclosed in a while loop. First it checks again that the user has entered a postive integer (greater than zero).
+
+Next it determines if the user has entered an even value by using the modulo operator to check if the remainder of division by two is equal to zero. If it is, it divides the value by two (using // so that a whole number is returned) and the while loop returns to the start.  
+
+If the value is odd (the remainder of division does not equal zero) and it is not equal to one, it it multipled by three and then one is added to it. The while loop returns to the start.
+
+If the value is equal to one, in order to end the while loop (and hence the program) one is minused from it. As the number is now zero, the while loop ends and the successive values of the calculation on the inputted value are outputted to the user. Break could have been used instead to end the loop. In either case, it is important to include a stop clause otherwise the loop would just continue indefinitely until it causes a stack overflow error.
 
 ### References: 
  - w3schools. *Basics of While Loops.* https://www.w3schools.com/python/python_while_loops.asp (accessed 10/02/2021)
+ - Real Python. *Python "while" Loops (Indefinite Iteration).* https://realpython.com/python-while-loop/ (accessed 26/03/2021)
 
 
 
