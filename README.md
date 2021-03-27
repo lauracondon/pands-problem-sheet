@@ -98,13 +98,33 @@ If the value is equal to one, in order to end the while loop (and hence the prog
  - w3schools. *Basics of While Loops.* https://www.w3schools.com/python/python_while_loops.asp (accessed 10/02/2021)
  - Real Python. *Python "while" Loops (Indefinite Iteration).* https://realpython.com/python-while-loop/ (accessed 26/03/2021)
 
+____________________________________________________________________________________________________________________
 
+### Week 5 - weekday.py
 
- ### Week 5 - weekday.py
+#### Task: 
 
- Sources used: 
- - [Datetime Module](https://www.programiz.com/python-programming/datetime) accessed on Friday February 19th 2021
- - [The Weekday Function](https://pythontic.com/datetime/date/weekday) accessed on Friday February 19th 2021
+1. Write a program that outputs whether or not today is a weekday.
+
+Test Input: 
+
+An example of running this program on a Thursday:
+
+$ python weekday.py
+Yes, unfortunately today is a weekday.
+
+An example of running it on a Saturday:
+
+$ python weekday.py
+It is the weekend, yay!
+
+#### Code Explanation:
+
+#### References:
+ - Programiz. *Python datetime.* https://www.programiz.com/python-programming/datetime (accessed 19/02/2021) 
+ - Pythonic. *Weekday Function In Python.* https://pythontic.com/datetime/date/weekday (accessed 19/02/2021) 
+
+____________________________________________________________________________________________________________________
 
  ### Week 6 - squareroot.py
  28/02/2021 - Note: I would like to go back and add some code that will restart the program if the user enters a negative number, rather than just throw an error message and end it
@@ -112,6 +132,8 @@ If the value is equal to one, in order to end the while loop (and hence the prog
  Sources used: 
  - [Newton Method](https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html) accessed on Sunday February 28th 2021
  - [Limiting to one decimal place](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python) accessed on Sunday February 28th 2021
+
+____________________________________________________________________________________________________________________
 
  ### Week 7 - es.py 
 
@@ -125,6 +147,8 @@ If the value is equal to one, in order to end the while loop (and hence the prog
 
   ### Week 7 - moby-dick.txt
  - [Moby Dick - Chapter One. Sourced from Project Gutenberg](https://www.gutenberg.org/files/2701/2701-h/2701-h.htm) accessed on Thursday March 4th 2021
+
+____________________________________________________________________________________________________________________
 
  ### Week 8 - plottask.py
 10/03/2021 - Note: I need to comment my code and also add some extra formatting to it to make it look nicer
