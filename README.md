@@ -120,6 +120,14 @@ It is the weekend, yay!
 
 #### Code Explanation:
 
+To start with, the datetime module is imported - this is a built-in module in Python that allows you to work with dates and times in your program. As we only need to determine what day of the week it is, only the date class from datetime is imported. 
+
+Next date.today() is used to create an instance with the current local date expressed in the format year, month, and day. This is stored in the variable 'today'.
+
+To determine what day of the week it is, .weekday() is used on the variable 'today' and the output is stored as the variable 'what_day'. 
+
+When using .weekday() the days of the week are expressed not as strings but as integers (with Monday == 0 and Sunday == 6). Knowing this we can use a simple if statement to determine what today is. If today is less than 5 it is a weekday and if it is anything else it is the weekend. The program outputs a different specified message to the user depending on the answer. 
+
 #### References:
  - Programiz. *Python datetime.* https://www.programiz.com/python-programming/datetime (accessed 19/02/2021) 
  - Pythonic. *Weekday Function In Python.* https://pythontic.com/datetime/date/weekday (accessed 19/02/2021) 
