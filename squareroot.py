@@ -21,13 +21,13 @@ while True:
     try:
         #requests input from the user
         num =  float(input("Please enter a positive number: "))
-        # check if number is positive using assertion
+        # checks if number is positive using assertion
         assert num > 0 
-    # if not a postive number, throw an assertion error and requests input again
+    # if it's not a postive number, throws an assertion error and requests input again
     except AssertionError:
         print("That was a negative number. Please try again")
         continue
-    # throws an error message if they enter a string and requests input again
+    # throws an error message if user enters a string and requests input again
     except ValueError:
         print("That was a string. Please try again")
         continue
