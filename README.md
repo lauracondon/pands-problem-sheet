@@ -137,9 +137,22 @@ ________________________________________________________________________________
  ### Week 6 - squareroot.py
  28/02/2021 - Note: I would like to go back and add some code that will restart the program if the user enters a negative number, rather than just throw an error message and end it
 
- Sources used: 
- - [Newton Method](https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html) accessed on Sunday February 28th 2021
- - [Limiting to one decimal place](https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python) accessed on Sunday February 28th 2021
+ #### Task: 
+1. Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+2. Create your own sqrt function, called sqrt, that does this and do not use the built in functions x ** .5 or math.sqrt(x).
+
+Test Input: 
+
+$ python squareroot.py
+Please enter a positive number: 14.5
+The square root of 14.5 is approx. 3.8.
+
+#### Code Explanation:
+
+### References: 
+
+ - Runestone Academy - How to Think Like a Computer Scientist. *Newton's Method.* https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (accessed 28/02/2021)
+ - Stack Overflow. *How to round to 2 decimals with Python?* https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python (accessed 28/02/2021)
 
 ____________________________________________________________________________________________________________________
 
