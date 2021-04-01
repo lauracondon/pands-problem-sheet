@@ -181,35 +181,24 @@ $ python es.py moby-dick.txt
 
 ### References: 
 
- - Real Python. *Reading and Writing Files in Python* https://realpython.com/read-write-files-python/ (accessed on 04/03/2021)
- - Real Python. *Working With Files in Python* https://realpython.com/working-with-files-in-python/ (accessed on 04/03/2021)
- - w3schools. *Python File Open* https://www.w3schools.com/python/python_file_handling.asp (accessed on 04/03/2021)
- - GeeksforGeeks. *Count the number of times a letter appears in a text file in Python* https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ (accessed on 04/03/2021)
- - codegrepper. *how to count the occurrence of a word in string python* https://www.codegrepper.com/code-examples/python/how+to+count+the+occurrence+of+a+word+in+string+python (accessed on 04/03/2021)
- - Stack Overflow. *UnicodeDecodeError: 'charmap' codec can't decode byte X in position Y: character maps to <undefined>* https://stackoverflow.com/questions/9233027/2021unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character (accessed on 04/03/2021)
+ - Real Python. *Reading and Writing Files in Python* https://realpython.com/read-write-files-python/ (accessed 04/03/2021)
+ - Real Python. *Working With Files in Python* https://realpython.com/working-with-files-in-python/ (accessed 04/03/2021)
+ - w3schools. *Python File Open* https://www.w3schools.com/python/python_file_handling.asp (accessed 04/03/2021)
+ - GeeksforGeeks. *Count the number of times a letter appears in a text file in Python* https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ (accessed 04/03/2021)
+ - codegrepper. *how to count the occurrence of a word in string python* https://www.codegrepper.com/code-examples/python/how+to+count+the+occurrence+of+a+word+in+string+python (accessed 04/03/2021)
+ - Stack Overflow. *UnicodeDecodeError: 'charmap' codec can't decode byte X in position Y: character maps to <undefined>* https://stackoverflow.com/questions/9233027/2021unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character (accessed 04/03/2021)
 
   ### Week 7 - moby-dick.txt
   
   The text in this document was sourced from Project Gutenburg for use in testing the es.py program. 
-  
- - Project Gutenburg. *Moby Dick - Chapter 1* https://www.gutenberg.org/files/2701/2701-h/2701-h.htm (accessed on 04/03/2021)
+
+ - Project Gutenburg. *Moby Dick - Chapter 1* https://www.gutenberg.org/files/2701/2701-h/2701-h.htm (accessed 04/03/2021)
 
 ____________________________________________________________________________________________________________________
 
  ### Week 8 - plottask.py
-10/03/2021 - Note: I need to comment my code and also add some extra formatting to it to make it look nicer
-
-#### Task: 
-1. Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
-2. Create your own sqrt function, called sqrt, that does this and do not use the built in functions x ** .5 or math.sqrt(x).
-
-Test Input: 
-
-$ python squareroot.py
-
-Please enter a positive number: 14.5
-
-The square root of 14.5 is approx. 3.8.
+1. Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+2. Some marks will be given for making the plot look nice.
 
 #### Code Explanation:
 
@@ -217,17 +206,15 @@ I used the tableau color blind 10 palette to choose colours for my lines. I conv
 
 ### References: 
 
-https://realpython.com/tutorials/numpy/ (accessed 10/03/2021)
-https://realpython.com/how-to-use-numpy-arange/ (accessed 10/03/2021)
-https://www.tutorialspoint.com/matlab/matlab_plotting.htm (accessed 10/03/2021)
-https://www.kite.com/python/answers/how-to-plot-multiple-lines-on-the-same-graph-in-matplotlib-in-python(accessed 10/03/2021)
-
-https://www.rgbtohex.net/rgb/ (accessed 20/03/2021)
-https://public.tableau.com/profile/chris.gerrard#!/vizhome/TableauColors/ColorPaletteswithRGBValues (accessed 20/03/2021)
-https://matplotlib.org/stable/gallery/index.html (accessed 20/03/2021)
-
-https://matplotlib.org/stable/gallery/lines_bars_and_markers/line_demo_dash_control.html (accessed 22/03/2021)
-https://stackoverflow.com/questions/43814540/how-to-change-the-font-of-the-legend (accessed 22/03/2021)
-https://pythonbasics.org/matplotlib-line-chart/ (accessed 22/03/2021)
-https://jakevdp.github.io/PythonDataScienceHandbook/04.01-simple-line-plots.html (accessed 22/03/2021)
-https://stackoverflow.com/questions/8209568/how-do-i-draw-a-grid-onto-a-plot-in-python (acessed 22/03/2011)
+- Real Python. *What Is NumPy?* https://realpython.com/tutorials/numpy/ (accessed 10/03/2021)
+- Real Python. *NumPy arange(): How to Use np.arange()* https://realpython.com/how-to-use-numpy-arange/ (accessed 10/03/2021)
+- Tutorial's Point. *MATLAB - Plotting* https://www.tutorialspoint.com/matlab/matlab_plotting.htm (accessed 10/03/2021)
+- Kite. *How to plot multiple lines on the same graph in Matplotlib in Python* https://www.kite.com/python/answers/how-to-plot-multiple-lines-on-the-same-graph-in-matplotlib-in-python (accessed 10/03/2021)
+- Tableau Public. *Color Palettes with RGB Values* https://public.tableau.com/profile/chris.gerrard#!/vizhome/TableauColors/ColorPaletteswithRGBValues (accessed 20/03/2021)
+- Matplotlib. *Gallery* https://matplotlib.org/stable/gallery/index.html (accessed 20/03/2021)
+- rgbtohex. https://www.rgbtohex.net/rgb/ (accessed 20/03/2021)
+- Matplotlib. *Customizing dashed line styles* https://matplotlib.org/stable/gallery/lines_bars_and_markers/line_demo_dash_control.html (accessed 22/03/2021)
+- Stack Overflow. *How to change the font of the legend?* https://stackoverflow.com/questions/43814540/how-to-change-the-font-of-the-legend (accessed 22/03/2021)
+- Python Basics. *Matplotlib Line Chart* https://pythonbasics.org/matplotlib-line-chart/ (accessed 22/03/2021)
+- Github - Jake VanderPlas.*Python Data Science Handbook - Simple Line Plots* https://jakevdp.github.io/PythonDataScienceHandbook/04.01-simple-line-plots.html (accessed 22/03/2021)
+- Stack Overflow. *How do I draw a grid onto a plot in Python?* https://stackoverflow.com/questions/8209568/how-do-i-draw-a-grid-onto-a-plot-in-python (acessed 22/03/2011)
