@@ -70,11 +70,9 @@ ________________________________________________________________________________
 #### Task: 
 
 1. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
-
 2. At each step calculate the next value by taking the current value and:
    - if it is even, divide it by two 
    - if it is odd, multiply it by three and add one.
-
 3. Have the program end if the current value is one.
 
 Test Input: 
@@ -169,25 +167,55 @@ ________________________________________________________________________________
 
  ### Week 7 - es.py 
 
- Sources used: 
- - [Real Python - Reading and Writing Files](https://realpython.com/read-write-files-python/ ) accessed on Thursday March 4th 2021
- - [Real Python - Working with Files in Python](https://realpython.com/working-with-files-in-python/) accessed on Thursday March 4th 2021
- - [w3schools - Handling Files in Python](https://www.w3schools.com/python/python_file_handling.asp) accessed on Thursday March 4th 2021
- - [geeksforgeeks - Counting the No. of Times a Letter Appears in a Text File](https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/) accessed on Thursday March 4th 2021
- - [codegrepper - Counting the Occurence of a Word in a String](https://www.codegrepper.com/code-examples/python/how+to+count+the+occurrence+of+a+word+in+string+python) accessed on Thursday March 4th 2021
- - [Stack Overflow - Handling a Decode Error](https://stackoverflow.com/questions/9233027/2021unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character) accessed on Thursday March 4th 2021
+#### Task: 
+1. Write a program that reads in a text file and outputs the number of e's it contains.
+2. The program should take the filename from an argument on the command line.
+
+Test Input: 
+
+$ python es.py moby-dick.txt
+
+116960
+
+#### Code Explanation:
+
+### References: 
+
+ - Real Python. *Reading and Writing Files in Python* https://realpython.com/read-write-files-python/ (accessed on 04/03/2021)
+ - Real Python. *Working With Files in Python* https://realpython.com/working-with-files-in-python/ (accessed on 04/03/2021)
+ - w3schools. *Python File Open* https://www.w3schools.com/python/python_file_handling.asp (accessed on 04/03/2021)
+ - GeeksforGeeks. *Count the number of times a letter appears in a text file in Python* https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ (accessed on 04/03/2021)
+ - codegrepper. *how to count the occurrence of a word in string python* https://www.codegrepper.com/code-examples/python/how+to+count+the+occurrence+of+a+word+in+string+python (accessed on 04/03/2021)
+ - Stack Overflow. *UnicodeDecodeError: 'charmap' codec can't decode byte X in position Y: character maps to <undefined>* https://stackoverflow.com/questions/9233027/2021unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character (accessed on 04/03/2021)
 
   ### Week 7 - moby-dick.txt
- - [Moby Dick - Chapter One. Sourced from Project Gutenberg](https://www.gutenberg.org/files/2701/2701-h/2701-h.htm) accessed on Thursday March 4th 2021
+  
+  The text in this document was sourced from Project Gutenburg for use in testing the es.py program. 
+  
+ - Project Gutenburg. *Moby Dick - Chapter 1* https://www.gutenberg.org/files/2701/2701-h/2701-h.htm (accessed on 04/03/2021)
 
 ____________________________________________________________________________________________________________________
 
  ### Week 8 - plottask.py
 10/03/2021 - Note: I need to comment my code and also add some extra formatting to it to make it look nicer
 
+#### Task: 
+1. Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
+2. Create your own sqrt function, called sqrt, that does this and do not use the built in functions x ** .5 or math.sqrt(x).
+
+Test Input: 
+
+$ python squareroot.py
+
+Please enter a positive number: 14.5
+
+The square root of 14.5 is approx. 3.8.
+
+#### Code Explanation:
+
 I used the tableau color blind 10 palette to choose colours for my lines. I converted them from rgb to hex for easier entry. In order to make it more obvious that the lines were overlapping I set two of them to be dashed in style, with different widths and distance between each dash. 
 
-References: 
+### References: 
 
 https://realpython.com/tutorials/numpy/ (accessed 10/03/2021)
 https://realpython.com/how-to-use-numpy-arange/ (accessed 10/03/2021)
