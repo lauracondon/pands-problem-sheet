@@ -162,6 +162,8 @@ The square root of 14.5 is approx. 3.8.
 
  - Runestone Academy - How to Think Like a Computer Scientist. *Newton's Method.* https://runestone.academy/runestone/books/published/thinkcspy/MoreAboutIteration/NewtonsMethod.html (accessed 28/02/2021)
  - Stack Overflow. *How to round to 2 decimals with Python?* https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python (accessed 28/02/2021)
+ - techbeamers. *How to Best Use Try Except in Python* https://www.techbeamers.com/use-try-except-python/ (accessed 01/04/2021)
+ - GeeksforGeeks. *Python | Assertion Error* https://www.geeksforgeeks.org/python-assertion-error/ (accessed 01/04/2021)
 
 ____________________________________________________________________________________________________________________
 
