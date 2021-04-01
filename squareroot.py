@@ -15,15 +15,27 @@ def sqrt(x):
             better = 0.5 * (approx + x/approx)
         return approx
 
+# combined try/except with a while loop so that if user enters wrong input
+# it will 'loop' and ask them for a positive number
+while True:
+    try:
+        #requests input from the user
+        num =  float(input("Please enter a positive number: "))
+        # check if number is positive using assertion
+        assert num > 0 
+    # if not a postive number, throw an assertion error and requests input again
+    except AssertionError:
+        print("That was a negative number. Please try again")
+        continue
+    # throws an error message if they enter a string and requests input again
+    except ValueError:
+        print("That was a string. Please try again")
+        continue
+    else:
+        # calls the function sqrt
+        sqrtNum = (sqrt(num))
+        # prints the output rounded to one decimal place - then breaks out of the while loop
+        print("The square root of " + str(num) + " is approx. " + str(round(sqrtNum,1)))
+        break
 
-# requests input from the user
-num =  float(input("Please enter a positve number: "))
-# throws an error message if they enter a negative number
-if num < 0:
-    print("That was a negative number! Please try again")
-else:
-    # calls the function sqrt
-    sqrtNum = (sqrt(num))
-    # prints the output rounded to one decimal place
-    print("The square root of " + str(num) + " is approx. " + str(round(sqrtNum,1)))
 
