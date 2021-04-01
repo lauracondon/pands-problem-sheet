@@ -11,8 +11,11 @@
 Test Input: 
 
 $ python bmi.py
+
 Enter weight: 65
+
 Enter height: 180
+
 BMI is 20.06.
 
 #### Code Explanation: 
@@ -40,7 +43,9 @@ ________________________________________________________________________________
 Test Input: 
 
 $ python secondstring.py
+
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
+
 .o zletrv pu o wr cu h
 
 #### Code Explanation:
@@ -111,11 +116,13 @@ Test Input:
 An example of running this program on a Thursday:
 
 $ python weekday.py
+
 Yes, unfortunately today is a weekday.
 
 An example of running it on a Saturday:
 
 $ python weekday.py
+
 It is the weekend, yay!
 
 #### Code Explanation:
@@ -144,7 +151,9 @@ ________________________________________________________________________________
 Test Input: 
 
 $ python squareroot.py
+
 Please enter a positive number: 14.5
+
 The square root of 14.5 is approx. 3.8.
 
 #### Code Explanation:
