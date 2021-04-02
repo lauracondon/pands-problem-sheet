@@ -19,6 +19,8 @@ This github repository contains the weekly tasks completed for the 2021 Programm
 
 This README contains a description of each task, followed by an explanation of its code and then a list of references used. 
 
+____________________________________________________________________________________________________________________
+
 ### Week 2 - bmi.py
 
 #### Task: 
