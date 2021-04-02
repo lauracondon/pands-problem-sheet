@@ -1,5 +1,15 @@
 ## Weekly Problem Sheets for Programming & Scripting
 
+### Introduction
+
+This github repository contains the weekly tasks completed for the 2021 Programming and Scripting module for GMIT's HDip in Science in Computing (Data Analytics).
+
+This README contains a description of each task, followed by an explanation of its code and then a list of references used. 
+
+The tasks are as follows:
+
+- [Week 2 - bmi.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-2---bmipy)
+
 ### Week 2 - bmi.py
 
 #### Task: 
