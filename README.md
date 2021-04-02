@@ -140,7 +140,6 @@ When using .weekday() the days of the week are expressed not as strings but as i
 ____________________________________________________________________________________________________________________
 
  ### Week 6 - squareroot.py
- 28/02/2021 - Note: I would like to go back and add some code that will restart the program if the user enters a negative number, rather than just throw an error message and end it
 
  #### Task: 
 1. Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
@@ -155,6 +154,14 @@ Please enter a positive number: 14.5
 The square root of 14.5 is approx. 3.8.
 
 #### Code Explanation:
+
+The function 'sqrt' is defined first. The function first finds the approximate square root of the input 'x' by multiplying it by 0.5. This is stored in the variable 'approx'. 
+
+Next it finds a 'better' approximation of the square root by using Newton's Method. It does this by taking the approximate square root and adding the input 'x' divided by the approximate square root to it. This is then multiplied by 0.5 and stored in the variable 'better'. 
+
+With Newton's Method, the more times you run it the 'better' the approxmimation gets. You could use iteration to apply it over and over, however, you'd have to guess at the number of times to apply it. Eventually with Newton's Method, it will reach a point where the current appoximation is the same as the previous one - at which point you can stop applying it. I used a while loop in my program to achieve this. While the 'better' variable does not equal the 'approx' variable, it will continue to apply Newton's Method. Once they do equal each other, the loop ends. 
+
+Now that the function has been defined, it can be applied to the user's input and the output can then be displayed to the user. Here a combination of a while loop with a try-except statement is used - so that if a user mistakenly enters a string or enters a negative number, it will display a relevant error message and prompt them again to enter a positive number. 
 
 ### References: 
 
