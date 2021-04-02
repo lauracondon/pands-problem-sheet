@@ -186,6 +186,12 @@ $ python es.py moby-dick.txt
 
 #### Code Explanation:
 
+The user is asked to input the name of the file. The file is opened in read mode - as this is the default open mode we don't need to specify it in the code. 
+
+A for loop is used to check each line in the file one at a time, rather than read the whole file into memory at once. 
+
+The program uses 'text_string.count' to check for the specified character in the file - in this case it checks for lowercase and uppercase e sperately and then adds the two figures together. The total is then outputted to the user. 
+
 ### References: 
 
  - Real Python. *Reading and Writing Files in Python* https://realpython.com/read-write-files-python/ (accessed 04/03/2021)
