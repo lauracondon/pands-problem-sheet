@@ -194,6 +194,7 @@ $ python es.py moby-dick.txt
  - GeeksforGeeks. *Count the number of times a letter appears in a text file in Python* https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/ (accessed 04/03/2021)
  - codegrepper. *how to count the occurrence of a word in string python* https://www.codegrepper.com/code-examples/python/how+to+count+the+occurrence+of+a+word+in+string+python (accessed 04/03/2021)
  - Stack Overflow. *UnicodeDecodeError: 'charmap' codec can't decode byte X in position Y: character maps to <undefined>* https://stackoverflow.com/questions/9233027/2021unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character (accessed 04/03/2021)
+ - Standford University. *Python File Reading* https://web.stanford.edu/class/archive/cs/cs106a/cs106a.1204/handouts/py-file.html (accessed 02/04/2021)
 
   ### Week 7 - moby-dick.txt
   
