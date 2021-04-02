@@ -1,14 +1,23 @@
 ## Weekly Problem Sheets for Programming & Scripting
 
+### Table of Contents
+
+1. [Introduction](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#introduction)
+2. [Week 2 - bmi.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-2---bmipy)
+3. [Week 3 - secondstring.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-3---secondstringpy)
+4. [Week 4 - collatz.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-4---collatzpy)
+5. [Week 5 - weekday.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-5---weekdaypy)
+6. [Week 6 - squareroot.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-6---squarerootpy)
+7. [Week 7 - es.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-7---espy)
+8. [Week 8 - plottask.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-8---plottaskpy)
+
+____________________________________________________________________________________________________________________
+
 ### Introduction
 
 This github repository contains the weekly tasks completed for the 2021 Programming and Scripting module for GMIT's HDip in Science in Computing (Data Analytics).
 
 This README contains a description of each task, followed by an explanation of its code and then a list of references used. 
-
-The tasks are as follows:
-
-- [Week 2 - bmi.py](https://github.com/lauracondon/pands-problem-sheet/blob/main/README.md#week-2---bmipy)
 
 ### Week 2 - bmi.py
 
