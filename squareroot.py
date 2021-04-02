@@ -33,9 +33,9 @@ while True:
         continue
     else:
         # calls the function sqrt
-        sqrtNum = (sqrt(num))
+        sqrt_num = (sqrt(num))
         # prints the output rounded to one decimal place - then breaks out of the while loop
-        print("The square root of " + str(num) + " is approx. " + str(round(sqrtNum,1)))
+        print("The square root of " + str(num) + " is approx. " + str(round(sqrt_num,1)))
         break
 
 
