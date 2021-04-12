@@ -35,6 +35,9 @@ plt.title('plot of f(x), g(x) and h(x)')
 # displays a legend
 plt.legend()
 
+# saves graph to plottask.png
+plt.savefig('plottask.png')
 # displays the resulting graph
 plt.show()
+
 
