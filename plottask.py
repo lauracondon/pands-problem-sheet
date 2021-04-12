@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # specifies what font style to use for all text in the plot
-plt.rcParams['font.family'] = 'Courier New'
+plt.rcParams['font.family'] = 'DejaVu Sans'
 
 # defines the range of values for x on the graph
 x = np.arange(0, 4)
