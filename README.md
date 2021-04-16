@@ -41,7 +41,7 @@ Your BMI is 20.06
 
 #### Code Explanation: 
 
-I enclosed my BMI program within a try/except statment so that if the user mistakenly enters a string it will show them a relevant error message. 
+I enclosed my BMI program within a try/except statement so that if the user mistakenly enters a string it will show them a relevant error message. 
 
 The user is prompted to input their height and weight. This input is converted from a string to a float, so that mathematical operations can be performed on it. 
 
@@ -73,7 +73,7 @@ Please enter a sentence: The quick brown fox jumps over the lazy dog.
 
 This program uses string slicing in order to output the reverse of every second letter in the inputted sentence. 
 
-First, the user is prompted to enter a setence. This input is stored as a string in the variable 'sentence'.
+First, the user is prompted to enter a sentence. This input is stored as a string in the variable 'sentence'.
 
 A new variable called 'backwardsSentence' is created to store the reverse of the string. The inputted string is sliced with a step value of -1 in order to reverse it. Essentially this code is saying start at the last character in the string and 'step' backwards one character at a time. 
 
@@ -106,15 +106,15 @@ Please enter a positive integer: 10
 
 #### Code Explanation:
 
-The user is prompted to enter a postive integer. Their input is converted from a string to an integer and stored in the variable 'value'.
+The user is prompted to enter a positive integer. Their input is converted from a string to an integer and stored in the variable 'value'.
 
 A simple if statement is used to display an error message if they enter a negative integer by mistake. 
 
-The rest of the program is enclosed in a while loop. First it checks again that the user has entered a postive integer (greater than zero).
+The rest of the program is enclosed in a while loop. First it checks again that the user has entered a positive integer (greater than zero).
 
 Next it determines if the user has entered an even value by using the modulo operator to check if the remainder of division by two is equal to zero. If it is, it divides the value by two (using // so that a whole number is returned) and the while loop returns to the start.  
 
-If the value is odd (the remainder of division does not equal zero) and it is not equal to one, it it multipled by three and then one is added to it. The while loop returns to the start.
+If the value is odd (the remainder of division does not equal zero) and it is not equal to one, it it multiplied by three and then one is added to it. The while loop returns to the start.
 
 If the value is equal to one, in order to end the while loop (and hence the program) one is minused from it. As the value is now zero, the while loop ends and the successive values of the calculation on the inputted value are outputted to the user. Break could have been used here instead to end the loop. In either case, it is important to include a stop clause otherwise the loop would just continue indefinitely until it causes a stack overflow error.
 
@@ -244,9 +244,9 @@ The first step is to import the modules required for this program - numpy and ma
 
 The range of values for 'x', in this case 0-4, and the values of the functions (f,g,h) we want to plot are specified. 
 
-Each function is plotted on the graph using the plot command. The resulting graph is saved to a file named 'plottask.png' and also displayed to the user in a pop up windown. 
+Each function is plotted on the graph using the plot command. The resulting graph is saved to a file named 'plottask.png' and also displayed to the user in a pop up window. 
 
-The above commands are enough to create and display a graph but there are a lot of additional things you can add to your code to improve readibility and to make it more aesthetically pleasing. For my graph, I specified what font I wanted using font-family. I added a grid behind the graph and specified how I wanted it to look. I added labels for each axes and a title, as well as a legend to clearly inform the viewer which line is which function. 
+The above commands are enough to create and display a graph but there are a lot of additional things you can add to your code to improve readability and to make it more aesthetically pleasing. For my graph, I specified what font I wanted using font-family. I added a grid behind the graph and specified how I wanted it to look. I added labels for each axes and a title, as well as a legend to clearly inform the viewer which line is which function. 
 
 When choosing the colour of my lines, I choose a colour palette geared towards colour blind users (tableau color blind 10). I converted the colour codes from rgb to hex for easier entry in Python. Then, in order to try make it more obvious that the lines were overlapping I set two of them to be dashed in style, with different widths and distance between each dash. 
 
