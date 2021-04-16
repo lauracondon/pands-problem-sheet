@@ -204,15 +204,15 @@ Test Input:
 
 $ python es.py moby-dick.txt
 
-116960
+1211
 
 #### Code Explanation:
 
-The user is asked to input the name of the file. The file is opened in read mode - as this is the default open mode we don't need to specify it in the code. 
+The user is asked to input the name of the file. The file is opened in read mode - as this is the default open mode it doesn't need to be specified in the code. 
 
-A for loop is used to check each line in the file one at a time, rather than read the whole file into memory at once. 
+A for loop is used to check the text in the file one line at a time - rather than read the whole file into memory at once. 
 
-The program uses 'text_string.count' to check for the specified character in the file - in this case it checks for lowercase and uppercase e sperately and then adds the two figures together. The total is then outputted to the user. 
+The program uses 'text_string.count' to check for the specified character in the file - in this case it checks for lowercase and uppercase 'e' separately and then adds the two figures together. The total is then outputted to the user. 
 
 ### References: 
 
