@@ -2,21 +2,26 @@
 # This program calculates the user's Body Mass Index (BMI)
 # Author: Laura Condon
 
-# try/except checks if user's input is a number and delivers an error message if it is not [1]
+# try/except checks if user's input is a number 
+# delivers an error message if it is not [1]
 try:
 
-# prompts the user to enter their weight and height then converts it from a string to a float
+# prompts the user to enter their weight and height 
+# then converts it from a string to a float
     weight = float(input("Please enter your weight in kilograms: "))
     height = float(input("Please enter your height in centimetres: "))
 
-# calculates the user's BMI and stores it in the variable 'bmi' 
+# calculates the user's BMI
+# and stores it in the variable 'bmi' 
     bmi = weight/(height/100)**2
 
 # prints the user's BMI
-# converts the variable to a string and rounds it to two decimal places [2]
+# converts the variable to a string
+# and rounds it to two decimal places [2]
     print("Your BMI is " + str(round(bmi,2))) 
 
-# specifies error to be detected and delivers error message to the user if found
+# specifies error to be detected 
+# and delivers error message to the user if found
 except ValueError:
     print("Invalid Input. Please enter numbers only")
     
