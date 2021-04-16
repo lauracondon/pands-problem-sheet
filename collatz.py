@@ -7,31 +7,35 @@
 # When the value is equal to one, the program ends. 
 # Author: Laura Condon
 
-# asks the user for their input and stores it as variable named 'value'
+# asks the user for their input 
+# and stores it as variable named 'value'
 value = int(input("Please enter a positive integer: "))
 
 # displays an error message if a negative integer is entered
 if value <= 0:
     print("Sorry that is an invalid input. Try again with a postive integer.")
 
-# initialises the while loop - will only work if user enters a postive integer
+# initialises the while loop [1]
+# this code will only work if user enters a postive integer 
 while value > 0 :
  # if the value is even
  if value % 2 == 0:
     print(value)
  # changes condition variable by dividing it by two
-    value = value//2
+    value = (value//2)
 
  # if the value is odd and it does not equal one
  if value % 2 != 0 and value != 1:
     print(value)
  # changes condition variable by multiplying it by three, then adding one
-    value = (value*3) + 1
+    value = (value * 3) + 1
 
  # if the value is equal to one
  elif value == 1:
     print(value)
- # value is now equal to 0 and the loop ends as a result
+ # value is now equal to 0 
+ # and the loop ends as a result
     value = (value - 1)
 
-    
+ # References
+ # [1] https://realpython.com/python-while-loop/ (accessed 26/03/2021)
