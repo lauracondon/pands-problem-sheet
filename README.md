@@ -59,7 +59,7 @@ ________________________________________________________________________________
 
 #### Task: 
 
-1. Write a program that takes asks a user to input a string and outputs every second letter in reverse order.
+1. Write a program that asks a user to input a string and outputs every second letter in reverse order.
 
 Test Input: 
 
@@ -73,11 +73,11 @@ Please enter a sentence: The quick brown fox jumps over the lazy dog.
 
 This program uses string slicing in order to output the reverse of every second letter in the inputted sentence. 
 
-First, the user is prompted to enter a setence. This input is stored in the variable 'sentence' as a string.
+First, the user is prompted to enter a setence. This input is stored as a string in the variable 'sentence'.
 
-A new variable called 'backwardsSentence' is created. Strings are indexed backwards (starting from -1) as well as forward (starting from 0). We slice the string with a step value of -1 (::-1) in order to reverse it. Essentially it is saying start at the last character in the string and 'step' backwards one step (or character) at a time. 
+A new variable called 'backwardsSentence' is created to store the reverse of the string. The inputted string is sliced with a step value of -1 in order to reverse it. Essentially this code is saying start at the last character in the string and 'step' backwards one character at a time. 
 
-The same technique as above is used to return every second letter. This time the step value is set to 2 (::2), meaning that every second letter in the now reversed string is 'jumped' over. The result is outputted to the user. 
+The same technique as above is used to return every second letter. This time the step value is set to 2, meaning that every second letter in the now reversed string is 'jumped' over. The result is outputted to the user. 
 
 #### References:
 - w3schools. *Python - Slicing Strings* https://www.w3schools.com/python/python_strings_slicing.asp (accessed 03/02/2021)
