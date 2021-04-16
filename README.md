@@ -238,13 +238,13 @@ ________________________________________________________________________________
 
 #### Code Explanation:
 
-The first step is to import the modules required for this program - numpy and matplotlib. 'As' is used to specify how to call them for use throughout the program. 
+The first step is to import the modules required for this program - numpy and matplotlib. 'As' is used here to specify how to call the modules for use throughout the program. 
 
-There are two basic things that have to be done when creating a line graph; specifying the range of values for 'x', in this case 0-4, and defining the values of the functions we want to plot (f,g,h). 
+The range of values for 'x', in this case 0-4, and the values of the functions we want to plot (f,g,h) are specified. 
 
-After which, each function (line) is plotted on the graph using the plot command. Finally we use the show command to display the resulting graph in a pop up windown. Just these commands are enough to create and display your graph. 
+Each function is plotted on the graph using the plot command. The resulting graph is saved to a file named 'plottask.png' and also displayed to the user in a pop up windown. Just these commands are enough to create and display a graph. 
 
-There are a lot of additional things you can add to your code to improve readibility of your graph and to just make it look better. For my graph, I specified what font I wanted used using font-family, I added a grid behind the graph and specified how I wanted it to look. I added labels for each axis and a title, as well as a legend to clearly inform the viewer which line is which function. 
+There are a lot of additional things you can add to your code to improve readibility and to make it more aesthetically pleasing. For my graph, I specified what font I wanted used using font-family, I added a grid behind the graph and specified how I wanted it to look. I added labels for each axis and a title, as well as a legend to clearly inform the viewer which line is which function. 
 
 When choosing the colour of my lines, I choose a colour palette geared towards colour blind users (tableau color blind 10). I converted the colour codes from rgb to hex for easier entry in Python. Then, in order to try make it more obvious that the lines were overlapping I set two of them to be dashed in style, with different widths and distance between each dash. 
 
