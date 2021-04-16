@@ -25,7 +25,7 @@ ________________________________________________________________________________
 
 #### Task: 
 
-1. Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py
+1. Write a program that calculates somebody's Body Mass Index (BMI). Call the file bmi.py.
 2. The inputs are the person's height in centimetres and weight in kilograms.
 3. The output is their weight divided by their height in metres squared.
 
@@ -33,11 +33,11 @@ Test Input:
 
 $ python bmi.py
 
-Enter weight: 65
+Please enter your weight in kilograms: 65
 
-Enter height: 180
+Please enter your height in centimetres: 180
 
-BMI is 20.06.
+Your BMI is 20.06
 
 #### Code Explanation: 
 
@@ -92,7 +92,7 @@ ________________________________________________________________________________
 
 1. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation:
 2. At each step calculate the next value by taking the current value and:
-   - if it is even, divide it by two 
+   - if it is even, divide it by two. 
    - if it is odd, multiply it by three and add one.
 3. Have the program end if the current value is one.
 
@@ -148,11 +148,11 @@ It is the weekend, yay!
 
 To start with, the datetime module is imported - this is a built-in module in Python that allows you to work with dates and times in your program. As the program only needs to determine what day of the week it is, only the date class from datetime is imported. 
 
-Next 'date.today()' is used to determine what the current local date is. The answer is stored in the variable 'today' and expressed in the format year, month, and day.
+Next 'date.today()' is used to determine what the current date is. The answer is stored in the variable 'today' and expressed in the format 'year, month, day'.
 
 To determine what day of the week it is, '.weekday()' is used on the variable 'today' and the output is stored as the variable 'what_day'. 
 
-When using .weekday() the days of the week are expressed not as strings but as integers (with Monday == 0 and Sunday == 6). The program uses a simple if statement to determine what today is. If today is less than 5 it is a weekday and if it is anything else it is the weekend. The program outputs a different specified message to the user depending on the answer to above. 
+When using '.weekday()' the days of the week are expressed not as strings but as integers (with Monday == 0 and Sunday == 6). The program uses a simple if statement to determine what today is. If today is less than 5 it is a weekday and if it is anything else it is the weekend. The program outputs a different specified message to the user depending on the answer to above. 
 
 #### References:
  - Programiz. *Python datetime.* https://www.programiz.com/python-programming/datetime (accessed 19/02/2021) 
@@ -180,11 +180,11 @@ The function 'sqrt' is defined. The function first finds the approximate square 
 
 Next it finds a more exact approximation of the square root by using Newton's Method. It does this by taking the approximate square root and adding the input 'x' divided by the approximate square root to it. This is then multiplied by 0.5 and stored in the variable 'better'. 
 
-With Newton's Method, the more times you run it the more exact the approxmimation gets. You could use iteration to apply it over and over, however, you'd have to guess at the number of times to apply it.Eventually with Newton's Method, it will reach a point where the current appoximation is the same as the previous one - at which point you can stop applying it. 
+With Newton's Method, the more times you run it the more exact the approximation gets. You could use iteration to apply it over and over, however, you'd have to guess at the number of times to apply it. Eventually, with Newton's Method, it will reach a point where the current approximation is the same as the previous one - at which point you can stop applying it. 
 
 This program uses a while loop to do this. While the 'better' variable does not equal the 'approx' variable, it will continue to apply Newton's Method. Once they do equal each other, the loop ends. 
 
-Now that the function has been defined, it can be applied to the user's input and the output can then be displayed. Here a combination of a while loop with a try-except statement is used to catch input errors. If a user mistakenly enters a string or enters a negative number, it will display a relevant error message and prompt them again to enter a positive number. 
+Now that the function has been defined, it can be applied to the user's input and the output can then be displayed. Here a combination of a while loop with a try-except statement is used to catch input errors. If a user mistakenly enters a string or enters a negative number, it will display a relevant error message and prompt them until they enter a positive number. 
 
 ### References: 
 
@@ -202,13 +202,15 @@ ________________________________________________________________________________
 
 Test Input: 
 
-$ python es.py moby-dick.txt
+$ python es.py 
 
-1211
+Please enter the name of your file: moby-dick.txt
+
+The letter e appears in this document 1211 times
 
 #### Code Explanation:
 
-The user is asked to input the name of the file. The file is opened in read mode - as this is the default open mode it doesn't need to be specified in the code. 
+The user is asked to input the name of the file they wish to check. The file is opened in read mode - as this is the default open mode it doesn't need to be specified in the code. 
 
 A for loop is used to check the text in the file one line at a time - rather than read the whole file into memory at once. 
 
@@ -240,11 +242,11 @@ ________________________________________________________________________________
 
 The first step is to import the modules required for this program - numpy and matplotlib. 'As' is used here to specify how to call the modules for use throughout the program. 
 
-The range of values for 'x', in this case 0-4, and the values of the functions we want to plot (f,g,h) are specified. 
+The range of values for 'x', in this case 0-4, and the values of the functions (f,g,h) we want to plot are specified. 
 
-Each function is plotted on the graph using the plot command. The resulting graph is saved to a file named 'plottask.png' and also displayed to the user in a pop up windown. Just these commands are enough to create and display a graph. 
+Each function is plotted on the graph using the plot command. The resulting graph is saved to a file named 'plottask.png' and also displayed to the user in a pop up windown. 
 
-There are a lot of additional things you can add to your code to improve readibility and to make it more aesthetically pleasing. For my graph, I specified what font I wanted used using font-family, I added a grid behind the graph and specified how I wanted it to look. I added labels for each axis and a title, as well as a legend to clearly inform the viewer which line is which function. 
+The above commands are enough to create and display a graph but there are a lot of additional things you can add to your code to improve readibility and to make it more aesthetically pleasing. For my graph, I specified what font I wanted using font-family. I added a grid behind the graph and specified how I wanted it to look. I added labels for each axes and a title, as well as a legend to clearly inform the viewer which line is which function. 
 
 When choosing the colour of my lines, I choose a colour palette geared towards colour blind users (tableau color blind 10). I converted the colour codes from rgb to hex for easier entry in Python. Then, in order to try make it more obvious that the lines were overlapping I set two of them to be dashed in style, with different widths and distance between each dash. 
 
