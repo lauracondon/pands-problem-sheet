@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 This github repository contains the weekly tasks completed for the 2021 Programming and Scripting module for GMIT's HDip in Science in Computing (Data Analytics).
 
-This README contains a description of each task, followed by an explanation of its code and then a list of references used. 
+This README contains a description of each task, followed by an explanation of its code and then a list of references consulted. 
 
 ____________________________________________________________________________________________________________________
 
@@ -41,13 +41,13 @@ BMI is 20.06.
 
 #### Code Explanation: 
 
-I enclosed my BMI program within a try/except statment so that if the user mistakenly entered a string it would show them a relevant error message. 
+I enclosed my BMI program within a try/except statment so that if the user mistakenly enters a string it will show them a relevant error message. 
 
-The user is prompted to input their height and weight. This input is converted from a string to a float, so that we can perform mathematical operations on it. 
+The user is prompted to input their height and weight. This input is converted from a string to a float, so that mathematical operations can be performed on it. 
 
-To find the BMI, the user's weight is divided by their height and then squared. As height was entered in centimetres, it is first divided by 100 to convert it into metres. The answer is stored in the variable 'bmi'.
+To find their BMI, the user's weight is divided by their height and then squared. As height was entered in centimetres, it is first divided by 100 to convert it into metres. The answer is stored in the variable 'bmi'.
 
-Finally, The variable 'bmi' is rounded to two decimal places and converted to a string, so that it can be concatenated with another string, then displayed to the user.
+Finally, the variable 'bmi' is rounded to two decimal places and converted to a string, so that it can be concatenated with another string and then displayed to the user.
 
 #### References:
 - Stack Overflow. *How to round to 2 decimals with Python?* https://stackoverflow.com/questions/20457038/how-to-round-to-2-decimals-with-python (accessed 30/01/2021)
