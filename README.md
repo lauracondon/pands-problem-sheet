@@ -90,7 +90,7 @@ ________________________________________________________________________________
 
 #### Task: 
 
-1. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+1. Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation:
 2. At each step calculate the next value by taking the current value and:
    - if it is even, divide it by two 
    - if it is odd, multiply it by three and add one.
@@ -108,7 +108,7 @@ Please enter a positive integer: 10
 
 The user is prompted to enter a postive integer. Their input is converted from a string to an integer and stored in the variable 'value'.
 
-A simple if statement is used, to display an error message if they enter a negative integer by mistake. 
+A simple if statement is used to display an error message if they enter a negative integer by mistake. 
 
 The rest of the program is enclosed in a while loop. First it checks again that the user has entered a postive integer (greater than zero).
 
@@ -116,7 +116,7 @@ Next it determines if the user has entered an even value by using the modulo ope
 
 If the value is odd (the remainder of division does not equal zero) and it is not equal to one, it it multipled by three and then one is added to it. The while loop returns to the start.
 
-If the value is equal to one, in order to end the while loop (and hence the program) one is minused from it. As the number is now zero, the while loop ends and the successive values of the calculation on the inputted value are outputted to the user. Break could have been used instead to end the loop. In either case, it is important to include a stop clause otherwise the loop would just continue indefinitely until it causes a stack overflow error.
+If the value is equal to one, in order to end the while loop (and hence the program) one is minused from it. As the value is now zero, the while loop ends and the successive values of the calculation on the inputted value are outputted to the user. Break could have been used here instead to end the loop. In either case, it is important to include a stop clause otherwise the loop would just continue indefinitely until it causes a stack overflow error.
 
 ### References: 
  - w3schools. *Basics of While Loops.* https://www.w3schools.com/python/python_while_loops.asp (accessed 10/02/2021)
